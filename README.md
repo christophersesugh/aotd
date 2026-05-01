@@ -8,7 +8,7 @@ Each algorithm solution is stored as a separate file in the root directory, name
 ## Progress Tracker
 | Date       | Algorithm          | File                  | Status       |
 |------------|--------------------|-----------------------|--------------|
-| 2026-05-01 | Weird Algorithm    | `weird-algorithm.js`  | File Created |
+| 2026-05-01 | Weird Algorithm    | `weird-algorithm.js`  | Solved       |
 
 ## Getting Started
 ### Prerequisites

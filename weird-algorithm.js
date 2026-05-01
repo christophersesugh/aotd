@@ -49,9 +49,6 @@ const fs = require("node:fs")
 /**
  * CSES provides the input through standard input.
  *
- * We should not use readline.question("Enter number:")
- * because that prints "Enter number:" to the output.
- *
  * Online judges expect the output to match exactly.
  */
 const input = fs.readFileSync(0, "utf8").trim()
@@ -97,8 +94,6 @@ function weirdAlgorithm(n) {
 
   /**
    * CSES expects only the sequence as output.
-   *
-   * Do not print prompts, debug logs, or execution time.
    */
   console.log(numbers.join(" "))
 }
